@@ -1,0 +1,855 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20DBA5FEA012F62493E88B702ED80310 /* ColorBlendDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04D2D4F27F44129E2F30402F46D9DF5 /* ColorBlendDrawer.swift */; };
+		4CE446837605255E3446B0CCF9569B4F /* DropDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE4A8B00159320E26AC4811339D9F0F /* DropDrawer.swift */; };
+		4D2270B552E8F3E952C9556D5A74857F /* InfiniteScrollingDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A457FACCDF3A0C33C6BB14B9E98B802 /* InfiniteScrollingDrawer.swift */; };
+		4E823BE0E78116A347855EE52B11B3B9 /* JumpDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250917DB6421DEEA057616D0060631D9 /* JumpDrawer.swift */; };
+		50E151EB68390D51F76BD112F6E36FE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5415F335619A2446C1F4C98E01EA5BB5 /* ThinWormDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF00E36E3828B60F1DE9C86318210BE4 /* ThinWormDrawer.swift */; };
+		5ABF5005394286424D09C497637250A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5AE8B4924742C7442019F0771A348448 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE7F53B5AE7C41035009A1227447A66 /* ColorUtils.swift */; };
+		69C454BB3248AF5B39142B95250D1C6A /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D4E56D908DF8865755E7203797F288 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		736FEDD65F91F7472D1FC71F86E7E866 /* SwapDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90428C3D91373FC3B2F8EDC0023FFD0F /* SwapDrawer.swift */; };
+		7649D706B09E1086A92DFF29166CA51F /* AdvancedPageControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63040278904D69C662CFF7343ABF55F /* AdvancedPageControlView.swift */; };
+		878035B27CC6F4ADFB8E5393164F0002 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F46DFC399E6CB11B417BC9CDFD6412B /* SkyFloatingLabelTextField-dummy.m */; };
+		8D12F58DBD57877F3227C784E58AE9C0 /* InfiniteDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F186F7C940B0115CD31B725FE618C55 /* InfiniteDrawer.swift */; };
+		90FD9AF1F01EB97E2717DA9542E80D45 /* AdvancedPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FAE430D5547666237629F976FFC6EAB /* AdvancedPageControl-dummy.m */; };
+		9306C1E4F0E7C5425296AB665C596D8C /* DrawerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AC28AAD8F17A27F0E154A6B864C409 /* DrawerProtocol.swift */; };
+		AF389960C406F992102746C67FCBE39D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B1BE3AC245A4FA3255D945EC573E6069 /* ScaleDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C5B14D91FE94E62B49A3DB841000A0 /* ScaleDrawer.swift */; };
+		B21B956EFD352B0A09AAC0116854E0CA /* ExtendedDotDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542A10CFB67D99B78E290296271AAE1 /* ExtendedDotDrawer.swift */; };
+		C3828E5828F823A569650ADEF2857AA2 /* SlideDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16E5A98AF74CD5751822779F37F8F3C /* SlideDrawer.swift */; };
+		CC827729F4794A58075073E39B42D73F /* Pods-BESO-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F004288636D3A48947A4405ECE4B88F1 /* Pods-BESO-Demo-dummy.m */; };
+		D331FFF6ECB0F6BD6594E1176B99EBEB /* WormDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEC2547CDE0C991AC7617CD74706012 /* WormDrawer.swift */; };
+		D4B60C1B05683FF31F27A71FBE495B0B /* AdvancedPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6750FC1E633E3543E4900F5C4033E7DF /* AdvancedPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67C5A09B1E0A7738445925C879C2F1C /* ThinWormHeadsDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8A341B5911E81D14F7F7A10D95C308 /* ThinWormHeadsDrawer.swift */; };
+		E2ABE924B2D77383C50E0BAD47F1A2CE /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702DC2B616BEBDBB91FCDB2344F463EB /* UITextField+fixCaretPosition.swift */; };
+		EC5246CB6C26D6680D741F077F20F0DE /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F121A4C1D4D66C35E020994026F0644 /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF188EC048AF7BB0EC67B7E36A84F36A /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D70ABE7F37474FF74CAE7C3B9E86C7 /* SkyFloatingLabelTextField.swift */; };
+		EF905502EDAFD8DFCE2E1AC634651663 /* ScrollingDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D141C6B2AA400B0AA5BF807D71704D4B /* ScrollingDrawer.swift */; };
+		EFCE42C404AF88D894C3E6C9BFD3CE56 /* Pods-BESO-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE9E671407F57722B1C172A3BDE1EA0 /* Pods-BESO-Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F54F52DEC95D2FEA000BCA0FC5D690A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBAF98039AB4BA7927B611FB65B61BC;
+			remoteInfo = SkyFloatingLabelTextField;
+		};
+		9AC169B26E142A83217CDFF8BE163AA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 972CBE5FF7CFA3AE9901AC4608913BCF;
+			remoteInfo = AdvancedPageControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04293BE5F0D28BEA165B66F69C885413 /* SkyFloatingLabelTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.release.xcconfig; sourceTree = "<group>"; };
+		0AA5368DF1835C4C5F713627801AE2EA /* AdvancedPageControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AdvancedPageControl.release.xcconfig; sourceTree = "<group>"; };
+		1095A29746B26DDA10DAA97A9E93AC0D /* Pods-BESO-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BESO-Demo.modulemap"; sourceTree = "<group>"; };
+		2049E16311217FF37465F25C4D35460C /* AdvancedPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AdvancedPageControl.modulemap; sourceTree = "<group>"; };
+		250917DB6421DEEA057616D0060631D9 /* JumpDrawer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JumpDrawer.swift; path = AdvancedPageControl/Classes/Drawers/JumpDrawer.swift; sourceTree = "<group>"; };
+		2F186F7C940B0115CD31B725FE618C55 /* InfiniteDrawer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfiniteDrawer.swift; path = AdvancedPageControl/Classes/Drawers/InfiniteDrawer.swift; sourceTree = "<group>"; };
+		3AE9E671407F57722B1C172A3BDE1EA0 /* Pods-BESO-Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BESO-Demo-umbrella.h"; sourceTree = "<group>"; };
+		3F121A4C1D4D66C35E020994026F0644 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		46872D92A0033D12DDB5B4CB9FBCC327 /* Pods-BESO-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BESO-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		47B4336A447D97E9330CBA6F111E676F /* Pods-BESO-Demo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BESO-Demo-Info.plist"; sourceTree = "<group>"; };
+		4A457FACCDF3A0C33C6BB14B9E98B802 /* InfiniteScrollingDrawer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfiniteScrollingDrawer.swift; path = AdvancedPageControl/Classes/Drawers/InfiniteScrollingDrawer.swift; sourceTree = "<group>"; };
+		4B8A341B5911E81D14F7F7A10D95C308 /* ThinWormHeadsDrawer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThinWormHeadsDrawer.swift; path = AdvancedPageControl/Classes/Drawers/ThinWormHeadsDrawer.swift; sourceTree = "<group>"; };
+		4F5BC82FE5F63D2919B80ACA834C2445 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		506B7D3EB966A73FC92FFE914DCA0337 /* AdvancedPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AdvancedPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FAE430D5547666237629F976FFC6EAB /* AdvancedPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AdvancedPageControl-dummy.m"; sourceTree = "<group>"; };
+		60EF5F16F890467D65A4604CF8361BA7 /* Pods-BESO-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BESO-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6750FC1E633E3543E4900F5C4033E7DF /* AdvancedPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdvancedPageControl-umbrella.h"; sourceTree = "<group>"; };
+		6F46DFC399E6CB11B417BC9CDFD6412B /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		6FEC2547CDE0C991AC7617CD74706012 /* WormDrawer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WormDrawer.swift; path = AdvancedPageControl/Classes/Drawers/WormDrawer.swift; sourceTree = "<group>"; };
+		702DC2B616BEBDBB91FCDB2344F463EB /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		83D70ABE7F37474FF74CAE7C3B9E86C7 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		8542A10CFB67D99B78E290296271AAE1 /* ExtendedDotDrawer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtendedDotDrawer.swift; path = AdvancedPageControl/Classes/Drawers/ExtendedDotDrawer.swift; sourceTree = "<group>"; };
+		8EE4A8B00159320E26AC4811339D9F0F /* DropDrawer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDrawer.swift; path = AdvancedPageControl/Classes/Drawers/DropDrawer.swift; sourceTree = "<group>"; };
+		90428C3D91373FC3B2F8EDC0023FFD0F /* SwapDrawer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwapDrawer.swift; path = AdvancedPageControl/Classes/Drawers/SwapDrawer.swift; sourceTree = "<group>"; };
+		92C5B14D91FE94E62B49A3DB841000A0 /* ScaleDrawer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScaleDrawer.swift; path = AdvancedPageControl/Classes/Drawers/ScaleDrawer.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FE7F53B5AE7C41035009A1227447A66 /* ColorUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorUtils.swift; path = AdvancedPageControl/Classes/ColorUtils.swift; sourceTree = "<group>"; };
+		A16E5A98AF74CD5751822779F37F8F3C /* SlideDrawer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideDrawer.swift; path = AdvancedPageControl/Classes/Drawers/SlideDrawer.swift; sourceTree = "<group>"; };
+		A304D942719DBC72B119171C0395BC49 /* SkyFloatingLabelTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.debug.xcconfig; sourceTree = "<group>"; };
+		A87B2F0A771EB36C1D0E8D899EFA95C9 /* Pods-BESO-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BESO-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		B04D2D4F27F44129E2F30402F46D9DF5 /* ColorBlendDrawer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorBlendDrawer.swift; path = AdvancedPageControl/Classes/Drawers/ColorBlendDrawer.swift; sourceTree = "<group>"; };
+		B7AC28AAD8F17A27F0E154A6B864C409 /* DrawerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawerProtocol.swift; path = AdvancedPageControl/Classes/Drawers/DrawerProtocol.swift; sourceTree = "<group>"; };
+		BE802C3CA8B0EAC0A03F30A2B70ACF92 /* Pods_BESO_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BESO_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D141C6B2AA400B0AA5BF807D71704D4B /* ScrollingDrawer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollingDrawer.swift; path = AdvancedPageControl/Classes/Drawers/ScrollingDrawer.swift; sourceTree = "<group>"; };
+		D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF00E36E3828B60F1DE9C86318210BE4 /* ThinWormDrawer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThinWormDrawer.swift; path = AdvancedPageControl/Classes/Drawers/ThinWormDrawer.swift; sourceTree = "<group>"; };
+		E0D029CAA2AA158F4486455B9FBBEE53 /* Pods-BESO-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BESO-Demo-frameworks.sh"; sourceTree = "<group>"; };
+		E2D4E56D908DF8865755E7203797F288 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		E38ED6A45D7110DEA36B7CFC1B3A4966 /* AdvancedPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdvancedPageControl-prefix.pch"; sourceTree = "<group>"; };
+		E66080E43BE551B5C716C68B3C6BC313 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
+		EAF71FDE990C63CA6A6E1B3141CA2A0B /* SkyFloatingLabelTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SkyFloatingLabelTextField-Info.plist"; sourceTree = "<group>"; };
+		EE1E728096F0066EB3BE10B79B47391D /* AdvancedPageControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AdvancedPageControl.debug.xcconfig; sourceTree = "<group>"; };
+		F004288636D3A48947A4405ECE4B88F1 /* Pods-BESO-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BESO-Demo-dummy.m"; sourceTree = "<group>"; };
+		F4E2286259E680D948A86097DDC2DE7B /* Pods-BESO-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BESO-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		F63040278904D69C662CFF7343ABF55F /* AdvancedPageControlView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdvancedPageControlView.swift; path = AdvancedPageControl/Classes/AdvancedPageControlView.swift; sourceTree = "<group>"; };
+		F68ADA74438D949F31EE3EE97170FF39 /* AdvancedPageControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AdvancedPageControl-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6829E0E6C4F3DC804216184144F1FBE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E151EB68390D51F76BD112F6E36FE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69148F0F2CE9B9B93B752A59F25938EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF389960C406F992102746C67FCBE39D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEEE33742FB47163BAE4F8483F14BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABF5005394286424D09C497637250A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		420B53AB70B2F07CB9D45C814C4699A5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2049E16311217FF37465F25C4D35460C /* AdvancedPageControl.modulemap */,
+				5FAE430D5547666237629F976FFC6EAB /* AdvancedPageControl-dummy.m */,
+				F68ADA74438D949F31EE3EE97170FF39 /* AdvancedPageControl-Info.plist */,
+				E38ED6A45D7110DEA36B7CFC1B3A4966 /* AdvancedPageControl-prefix.pch */,
+				6750FC1E633E3543E4900F5C4033E7DF /* AdvancedPageControl-umbrella.h */,
+				EE1E728096F0066EB3BE10B79B47391D /* AdvancedPageControl.debug.xcconfig */,
+				0AA5368DF1835C4C5F713627801AE2EA /* AdvancedPageControl.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AdvancedPageControl";
+			sourceTree = "<group>";
+		};
+		464DE147EF308DE13F01EFB078B910F7 /* SkyFloatingLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				83D70ABE7F37474FF74CAE7C3B9E86C7 /* SkyFloatingLabelTextField.swift */,
+				E2D4E56D908DF8865755E7203797F288 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				702DC2B616BEBDBB91FCDB2344F463EB /* UITextField+fixCaretPosition.swift */,
+				7F0C93D4DB1A44E76A407907F75E98A7 /* Support Files */,
+			);
+			path = SkyFloatingLabelTextField;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7F0C93D4DB1A44E76A407907F75E98A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E66080E43BE551B5C716C68B3C6BC313 /* SkyFloatingLabelTextField.modulemap */,
+				6F46DFC399E6CB11B417BC9CDFD6412B /* SkyFloatingLabelTextField-dummy.m */,
+				EAF71FDE990C63CA6A6E1B3141CA2A0B /* SkyFloatingLabelTextField-Info.plist */,
+				4F5BC82FE5F63D2919B80ACA834C2445 /* SkyFloatingLabelTextField-prefix.pch */,
+				3F121A4C1D4D66C35E020994026F0644 /* SkyFloatingLabelTextField-umbrella.h */,
+				A304D942719DBC72B119171C0395BC49 /* SkyFloatingLabelTextField.debug.xcconfig */,
+				04293BE5F0D28BEA165B66F69C885413 /* SkyFloatingLabelTextField.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SkyFloatingLabelTextField";
+			sourceTree = "<group>";
+		};
+		8DC25F46D7F7C0A6D86CE07B046AA340 /* AdvancedPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				F63040278904D69C662CFF7343ABF55F /* AdvancedPageControlView.swift */,
+				B04D2D4F27F44129E2F30402F46D9DF5 /* ColorBlendDrawer.swift */,
+				9FE7F53B5AE7C41035009A1227447A66 /* ColorUtils.swift */,
+				B7AC28AAD8F17A27F0E154A6B864C409 /* DrawerProtocol.swift */,
+				8EE4A8B00159320E26AC4811339D9F0F /* DropDrawer.swift */,
+				8542A10CFB67D99B78E290296271AAE1 /* ExtendedDotDrawer.swift */,
+				2F186F7C940B0115CD31B725FE618C55 /* InfiniteDrawer.swift */,
+				4A457FACCDF3A0C33C6BB14B9E98B802 /* InfiniteScrollingDrawer.swift */,
+				250917DB6421DEEA057616D0060631D9 /* JumpDrawer.swift */,
+				92C5B14D91FE94E62B49A3DB841000A0 /* ScaleDrawer.swift */,
+				D141C6B2AA400B0AA5BF807D71704D4B /* ScrollingDrawer.swift */,
+				A16E5A98AF74CD5751822779F37F8F3C /* SlideDrawer.swift */,
+				90428C3D91373FC3B2F8EDC0023FFD0F /* SwapDrawer.swift */,
+				DF00E36E3828B60F1DE9C86318210BE4 /* ThinWormDrawer.swift */,
+				4B8A341B5911E81D14F7F7A10D95C308 /* ThinWormHeadsDrawer.swift */,
+				6FEC2547CDE0C991AC7617CD74706012 /* WormDrawer.swift */,
+				420B53AB70B2F07CB9D45C814C4699A5 /* Support Files */,
+			);
+			path = AdvancedPageControl;
+			sourceTree = "<group>";
+		};
+		99771D7815C48A7D2E4080AB9B078617 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DC25F46D7F7C0A6D86CE07B046AA340 /* AdvancedPageControl */,
+				464DE147EF308DE13F01EFB078B910F7 /* SkyFloatingLabelTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B818A83702A9C370CCD8195CE202F55B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4490C5D4FBD7C9EBE04EEC75246675E /* Pods-BESO-Demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C4490C5D4FBD7C9EBE04EEC75246675E /* Pods-BESO-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				1095A29746B26DDA10DAA97A9E93AC0D /* Pods-BESO-Demo.modulemap */,
+				60EF5F16F890467D65A4604CF8361BA7 /* Pods-BESO-Demo-acknowledgements.markdown */,
+				46872D92A0033D12DDB5B4CB9FBCC327 /* Pods-BESO-Demo-acknowledgements.plist */,
+				F004288636D3A48947A4405ECE4B88F1 /* Pods-BESO-Demo-dummy.m */,
+				E0D029CAA2AA158F4486455B9FBBEE53 /* Pods-BESO-Demo-frameworks.sh */,
+				47B4336A447D97E9330CBA6F111E676F /* Pods-BESO-Demo-Info.plist */,
+				3AE9E671407F57722B1C172A3BDE1EA0 /* Pods-BESO-Demo-umbrella.h */,
+				A87B2F0A771EB36C1D0E8D899EFA95C9 /* Pods-BESO-Demo.debug.xcconfig */,
+				F4E2286259E680D948A86097DDC2DE7B /* Pods-BESO-Demo.release.xcconfig */,
+			);
+			name = "Pods-BESO-Demo";
+			path = "Target Support Files/Pods-BESO-Demo";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				99771D7815C48A7D2E4080AB9B078617 /* Pods */,
+				E8C0EE6E80A6151EB95B605EA31E2542 /* Products */,
+				B818A83702A9C370CCD8195CE202F55B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8C0EE6E80A6151EB95B605EA31E2542 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				506B7D3EB966A73FC92FFE914DCA0337 /* AdvancedPageControl.framework */,
+				BE802C3CA8B0EAC0A03F30A2B70ACF92 /* Pods_BESO_Demo.framework */,
+				D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5ADBE689D7DED3C3FFA084D8B9DBB46B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCE42C404AF88D894C3E6C9BFD3CE56 /* Pods-BESO-Demo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B403AC92F809184454C1FCE30084F66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B60C1B05683FF31F27A71FBE495B0B /* AdvancedPageControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C96C5EDEA1256E3D515B772D897D55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5246CB6C26D6680D741F077F20F0DE /* SkyFloatingLabelTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		972CBE5FF7CFA3AE9901AC4608913BCF /* AdvancedPageControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56F87972068C3D30F2C4109FFB3084A9 /* Build configuration list for PBXNativeTarget "AdvancedPageControl" */;
+			buildPhases = (
+				8B403AC92F809184454C1FCE30084F66 /* Headers */,
+				AE79470F30BFEE22FC1D12C5CD343724 /* Sources */,
+				6829E0E6C4F3DC804216184144F1FBE0 /* Frameworks */,
+				4C90A48FC55CB808E935177C3704667B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdvancedPageControl;
+			productName = AdvancedPageControl;
+			productReference = 506B7D3EB966A73FC92FFE914DCA0337 /* AdvancedPageControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A33CF291238FED53E179F23B383C4853 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
+			buildPhases = (
+				B0C96C5EDEA1256E3D515B772D897D55 /* Headers */,
+				404C51FACE5CFAC8FFF4FDC8C2AF9B6C /* Sources */,
+				DDEEE33742FB47163BAE4F8483F14BF2 /* Frameworks */,
+				BB72A33DD8F816B8303665F0BDA97B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyFloatingLabelTextField;
+			productName = SkyFloatingLabelTextField;
+			productReference = D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FAF6A2CB820F0FA0CCFFE9689A32BBC6 /* Pods-BESO-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F95D55204BEC91C388D398A27FB921 /* Build configuration list for PBXNativeTarget "Pods-BESO-Demo" */;
+			buildPhases = (
+				5ADBE689D7DED3C3FFA084D8B9DBB46B /* Headers */,
+				756847DF48DDEE4D693D6FEF8DE60C6A /* Sources */,
+				69148F0F2CE9B9B93B752A59F25938EF /* Frameworks */,
+				A614338BF96B9B383C723122805C167E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58FBA052532F4A50201C13C6411C378C /* PBXTargetDependency */,
+				D0BB5BBE008CDBA48EE062836F8BA450 /* PBXTargetDependency */,
+			);
+			name = "Pods-BESO-Demo";
+			productName = Pods_BESO_Demo;
+			productReference = BE802C3CA8B0EAC0A03F30A2B70ACF92 /* Pods_BESO_Demo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E8C0EE6E80A6151EB95B605EA31E2542 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				972CBE5FF7CFA3AE9901AC4608913BCF /* AdvancedPageControl */,
+				FAF6A2CB820F0FA0CCFFE9689A32BBC6 /* Pods-BESO-Demo */,
+				DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C90A48FC55CB808E935177C3704667B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A614338BF96B9B383C723122805C167E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB72A33DD8F816B8303665F0BDA97B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		404C51FACE5CFAC8FFF4FDC8C2AF9B6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF188EC048AF7BB0EC67B7E36A84F36A /* SkyFloatingLabelTextField.swift in Sources */,
+				878035B27CC6F4ADFB8E5393164F0002 /* SkyFloatingLabelTextField-dummy.m in Sources */,
+				69C454BB3248AF5B39142B95250D1C6A /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				E2ABE924B2D77383C50E0BAD47F1A2CE /* UITextField+fixCaretPosition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756847DF48DDEE4D693D6FEF8DE60C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC827729F4794A58075073E39B42D73F /* Pods-BESO-Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE79470F30BFEE22FC1D12C5CD343724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90FD9AF1F01EB97E2717DA9542E80D45 /* AdvancedPageControl-dummy.m in Sources */,
+				7649D706B09E1086A92DFF29166CA51F /* AdvancedPageControlView.swift in Sources */,
+				20DBA5FEA012F62493E88B702ED80310 /* ColorBlendDrawer.swift in Sources */,
+				5AE8B4924742C7442019F0771A348448 /* ColorUtils.swift in Sources */,
+				9306C1E4F0E7C5425296AB665C596D8C /* DrawerProtocol.swift in Sources */,
+				4CE446837605255E3446B0CCF9569B4F /* DropDrawer.swift in Sources */,
+				B21B956EFD352B0A09AAC0116854E0CA /* ExtendedDotDrawer.swift in Sources */,
+				8D12F58DBD57877F3227C784E58AE9C0 /* InfiniteDrawer.swift in Sources */,
+				4D2270B552E8F3E952C9556D5A74857F /* InfiniteScrollingDrawer.swift in Sources */,
+				4E823BE0E78116A347855EE52B11B3B9 /* JumpDrawer.swift in Sources */,
+				B1BE3AC245A4FA3255D945EC573E6069 /* ScaleDrawer.swift in Sources */,
+				EF905502EDAFD8DFCE2E1AC634651663 /* ScrollingDrawer.swift in Sources */,
+				C3828E5828F823A569650ADEF2857AA2 /* SlideDrawer.swift in Sources */,
+				736FEDD65F91F7472D1FC71F86E7E866 /* SwapDrawer.swift in Sources */,
+				5415F335619A2446C1F4C98E01EA5BB5 /* ThinWormDrawer.swift in Sources */,
+				D67C5A09B1E0A7738445925C879C2F1C /* ThinWormHeadsDrawer.swift in Sources */,
+				D331FFF6ECB0F6BD6594E1176B99EBEB /* WormDrawer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58FBA052532F4A50201C13C6411C378C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AdvancedPageControl;
+			target = 972CBE5FF7CFA3AE9901AC4608913BCF /* AdvancedPageControl */;
+			targetProxy = 9AC169B26E142A83217CDFF8BE163AA6 /* PBXContainerItemProxy */;
+		};
+		D0BB5BBE008CDBA48EE062836F8BA450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkyFloatingLabelTextField;
+			target = DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */;
+			targetProxy = 8F54F52DEC95D2FEA000BCA0FC5D690A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		248BD2A4957DA77680144A27D4FFA02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A87B2F0A771EB36C1D0E8D899EFA95C9 /* Pods-BESO-Demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BESO-Demo/Pods-BESO-Demo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BESO-Demo/Pods-BESO-Demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6277E3549FA69E127849DB2FF1188477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E2286259E680D948A86097DDC2DE7B /* Pods-BESO-Demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BESO-Demo/Pods-BESO-Demo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BESO-Demo/Pods-BESO-Demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9422C147501C92A6E686ED8C15F69AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A304D942719DBC72B119171C0395BC49 /* SkyFloatingLabelTextField.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BC4B169361926990D35F5C31B6BE3E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AA5368DF1835C4C5F713627801AE2EA /* AdvancedPageControl.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AdvancedPageControl/AdvancedPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AdvancedPageControl/AdvancedPageControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AdvancedPageControl/AdvancedPageControl.modulemap";
+				PRODUCT_MODULE_NAME = AdvancedPageControl;
+				PRODUCT_NAME = AdvancedPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4103EC73775853E71F7D9E7FA1DE8A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE1E728096F0066EB3BE10B79B47391D /* AdvancedPageControl.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AdvancedPageControl/AdvancedPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AdvancedPageControl/AdvancedPageControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AdvancedPageControl/AdvancedPageControl.modulemap";
+				PRODUCT_MODULE_NAME = AdvancedPageControl;
+				PRODUCT_NAME = AdvancedPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E29A9A22B7AA0AADA5C18466690773E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04293BE5F0D28BEA165B66F69C885413 /* SkyFloatingLabelTextField.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56F87972068C3D30F2C4109FFB3084A9 /* Build configuration list for PBXNativeTarget "AdvancedPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4103EC73775853E71F7D9E7FA1DE8A8 /* Debug */,
+				BC4B169361926990D35F5C31B6BE3E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61F95D55204BEC91C388D398A27FB921 /* Build configuration list for PBXNativeTarget "Pods-BESO-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248BD2A4957DA77680144A27D4FFA02B /* Debug */,
+				6277E3549FA69E127849DB2FF1188477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A33CF291238FED53E179F23B383C4853 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9422C147501C92A6E686ED8C15F69AFC /* Debug */,
+				E29A9A22B7AA0AADA5C18466690773E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

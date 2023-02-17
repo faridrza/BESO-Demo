@@ -1,0 +1,6 @@
+framework module Pods_BESO_Demo {
+  umbrella header "Pods-BESO-Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}

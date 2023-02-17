@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06043F4F6953EE8EF3D73FB5 /* Pods_BESO_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B493AA0326CA969E469CA5 /* Pods_BESO_Demo.framework */; };
+		DD11C977299270C200279A66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD11C976299270C200279A66 /* AppDelegate.swift */; };
+		DD11C979299270C200279A66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD11C978299270C200279A66 /* SceneDelegate.swift */; };
+		DD11C97B299270C200279A66 /* OnBoardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD11C97A299270C200279A66 /* OnBoardingVC.swift */; };
+		DD11C981299270C200279A66 /* BESO_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD11C97F299270C200279A66 /* BESO_Demo.xcdatamodeld */; };
+		DD11C983299270C400279A66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD11C982299270C400279A66 /* Assets.xcassets */; };
+		DD11C986299270C400279A66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD11C984299270C400279A66 /* LaunchScreen.storyboard */; };
+		DD11C9902992995200279A66 /* OnBoardingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD11C98F2992995200279A66 /* OnBoardingLayout.swift */; };
+		DD11C9982994BD8D00279A66 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD11C9972994BD8D00279A66 /* Colors.swift */; };
+		DD11C99C2995766700279A66 /* ViewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD11C99B2995766700279A66 /* ViewHelpers.swift */; };
+		DD11C99E299576E200279A66 /* OnBoardingViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD11C99D299576E200279A66 /* OnBoardingViewCell.swift */; };
+		DD11C9A029957AA600279A66 /* OnBoardingVCFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD11C99F29957AA600279A66 /* OnBoardingVCFuncs.swift */; };
+		DD4521DF2999188A001072E1 /* LoginAsanLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4521DE2999188A001072E1 /* LoginAsanLayout.swift */; };
+		DD4521E1299918D7001072E1 /* LoginAsanFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4521E0299918D7001072E1 /* LoginAsanFuncs.swift */; };
+		DD4521E429991EF9001072E1 /* LoginIDVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4521E329991EF9001072E1 /* LoginIDVC.swift */; };
+		DD4521E629992DC9001072E1 /* LoginIDLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4521E529992DC9001072E1 /* LoginIDLayout.swift */; };
+		DD4521E829992DE4001072E1 /* LoginIDFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4521E729992DE4001072E1 /* LoginIDFuncs.swift */; };
+		DD4521EA299A076B001072E1 /* UILoginHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4521E9299A076B001072E1 /* UILoginHeader.swift */; };
+		DD4521ED299A33FB001072E1 /* Wrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4521EC299A33FB001072E1 /* Wrappers.swift */; };
+		DD4521F0299AE395001072E1 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4521EF299AE395001072E1 /* SignUpVC.swift */; };
+		DD4521F2299AE3AC001072E1 /* SignUpLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4521F1299AE3AC001072E1 /* SignUpLayout.swift */; };
+		DD4521F4299AE4CB001072E1 /* SignUpFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4521F3299AE4CB001072E1 /* SignUpFuncs.swift */; };
+		DD45E1BA299589D000691CED /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD45E1B9299589D000691CED /* SplashVC.swift */; };
+		DD48EB70299B54BC0084A526 /* UISignUpHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48EB6F299B54BC0084A526 /* UISignUpHeader.swift */; };
+		DD48EB72299B71EA0084A526 /* GlobalProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48EB71299B71EA0084A526 /* GlobalProperties.swift */; };
+		DD65A0A0299659000019B202 /* SplashLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD65A09F299659000019B202 /* SplashLayout.swift */; };
+		DD65A0A3299659A00019B202 /* LoginAsanImzaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD65A0A2299659A00019B202 /* LoginAsanImzaVC.swift */; };
+		DD65A0A529965C620019B202 /* SplashFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD65A0A429965C620019B202 /* SplashFuncs.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		645B5A9F9E06C964DD7A6928 /* Pods-BESO-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BESO-Demo.release.xcconfig"; path = "Target Support Files/Pods-BESO-Demo/Pods-BESO-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		A3335687537D490563C8F8F6 /* Pods-BESO-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BESO-Demo.debug.xcconfig"; path = "Target Support Files/Pods-BESO-Demo/Pods-BESO-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		DD11C973299270C200279A66 /* BESO-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BESO-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD11C976299270C200279A66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD11C978299270C200279A66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DD11C97A299270C200279A66 /* OnBoardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingVC.swift; sourceTree = "<group>"; };
+		DD11C980299270C200279A66 /* BESO_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BESO_Demo.xcdatamodel; sourceTree = "<group>"; };
+		DD11C982299270C400279A66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD11C985299270C400279A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD11C987299270C400279A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD11C98F2992995200279A66 /* OnBoardingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingLayout.swift; sourceTree = "<group>"; };
+		DD11C9972994BD8D00279A66 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		DD11C99B2995766700279A66 /* ViewHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelpers.swift; sourceTree = "<group>"; };
+		DD11C99D299576E200279A66 /* OnBoardingViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewCell.swift; sourceTree = "<group>"; };
+		DD11C99F29957AA600279A66 /* OnBoardingVCFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingVCFuncs.swift; sourceTree = "<group>"; };
+		DD4521DE2999188A001072E1 /* LoginAsanLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAsanLayout.swift; sourceTree = "<group>"; };
+		DD4521E0299918D7001072E1 /* LoginAsanFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAsanFuncs.swift; sourceTree = "<group>"; };
+		DD4521E329991EF9001072E1 /* LoginIDVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginIDVC.swift; sourceTree = "<group>"; };
+		DD4521E529992DC9001072E1 /* LoginIDLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginIDLayout.swift; sourceTree = "<group>"; };
+		DD4521E729992DE4001072E1 /* LoginIDFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginIDFuncs.swift; sourceTree = "<group>"; };
+		DD4521E9299A076B001072E1 /* UILoginHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILoginHeader.swift; sourceTree = "<group>"; };
+		DD4521EC299A33FB001072E1 /* Wrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrappers.swift; sourceTree = "<group>"; };
+		DD4521EF299AE395001072E1 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		DD4521F1299AE3AC001072E1 /* SignUpLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpLayout.swift; sourceTree = "<group>"; };
+		DD4521F3299AE4CB001072E1 /* SignUpFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFuncs.swift; sourceTree = "<group>"; };
+		DD45E1B9299589D000691CED /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		DD48EB6F299B54BC0084A526 /* UISignUpHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISignUpHeader.swift; sourceTree = "<group>"; };
+		DD48EB71299B71EA0084A526 /* GlobalProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalProperties.swift; sourceTree = "<group>"; };
+		DD65A09F299659000019B202 /* SplashLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashLayout.swift; sourceTree = "<group>"; };
+		DD65A0A2299659A00019B202 /* LoginAsanImzaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAsanImzaVC.swift; sourceTree = "<group>"; };
+		DD65A0A429965C620019B202 /* SplashFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashFuncs.swift; sourceTree = "<group>"; };
+		E7B493AA0326CA969E469CA5 /* Pods_BESO_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BESO_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD11C970299270C200279A66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06043F4F6953EE8EF3D73FB5 /* Pods_BESO_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1309C0110D50468B06456231 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3335687537D490563C8F8F6 /* Pods-BESO-Demo.debug.xcconfig */,
+				645B5A9F9E06C964DD7A6928 /* Pods-BESO-Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D23A480F4972E8275B6AE6DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7B493AA0326CA969E469CA5 /* Pods_BESO_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD11C96A299270C200279A66 = {
+			isa = PBXGroup;
+			children = (
+				DD11C975299270C200279A66 /* BESO-Demo */,
+				DD11C974299270C200279A66 /* Products */,
+				1309C0110D50468B06456231 /* Pods */,
+				D23A480F4972E8275B6AE6DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD11C974299270C200279A66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD11C973299270C200279A66 /* BESO-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD11C975299270C200279A66 /* BESO-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				DD11C9A129957EC100279A66 /* View */,
+				DD11C99A2995760300279A66 /* Helpers */,
+				DD11C9962993D46800279A66 /* Nibs and CoreData */,
+				DD11C987299270C400279A66 /* Info.plist */,
+				DD11C976299270C200279A66 /* AppDelegate.swift */,
+				DD11C978299270C200279A66 /* SceneDelegate.swift */,
+			);
+			path = "BESO-Demo";
+			sourceTree = "<group>";
+		};
+		DD11C98D2992786000279A66 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DD11C9972994BD8D00279A66 /* Colors.swift */,
+				DD11C982299270C400279A66 /* Assets.xcassets */,
+				DD11C99B2995766700279A66 /* ViewHelpers.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DD11C9962993D46800279A66 /* Nibs and CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				DD11C984299270C400279A66 /* LaunchScreen.storyboard */,
+				DD11C97F299270C200279A66 /* BESO_Demo.xcdatamodeld */,
+			);
+			path = "Nibs and CoreData";
+			sourceTree = "<group>";
+		};
+		DD11C999299575E700279A66 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				DD11C97A299270C200279A66 /* OnBoardingVC.swift */,
+				DD11C98F2992995200279A66 /* OnBoardingLayout.swift */,
+				DD11C99D299576E200279A66 /* OnBoardingViewCell.swift */,
+				DD11C99F29957AA600279A66 /* OnBoardingVCFuncs.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		DD11C99A2995760300279A66 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DD4521EB299A0786001072E1 /* Reusable Views */,
+				DD11C98D2992786000279A66 /* Assets */,
+				DD4521EC299A33FB001072E1 /* Wrappers.swift */,
+				DD48EB71299B71EA0084A526 /* GlobalProperties.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DD11C9A129957EC100279A66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD4521EE299AD2A1001072E1 /* Sign Up */,
+				DD4521E229991EAE001072E1 /* Login with ID */,
+				DD65A0A1299659340019B202 /* Login with Asan Imza */,
+				DD45E1B8299589C000691CED /* Splash */,
+				DD11C999299575E700279A66 /* OnBoarding */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD4521E229991EAE001072E1 /* Login with ID */ = {
+			isa = PBXGroup;
+			children = (
+				DD4521E329991EF9001072E1 /* LoginIDVC.swift */,
+				DD4521E529992DC9001072E1 /* LoginIDLayout.swift */,
+				DD4521E729992DE4001072E1 /* LoginIDFuncs.swift */,
+			);
+			path = "Login with ID";
+			sourceTree = "<group>";
+		};
+		DD4521EB299A0786001072E1 /* Reusable Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD48EB6F299B54BC0084A526 /* UISignUpHeader.swift */,
+				DD4521E9299A076B001072E1 /* UILoginHeader.swift */,
+			);
+			path = "Reusable Views";
+			sourceTree = "<group>";
+		};
+		DD4521EE299AD2A1001072E1 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				DD4521EF299AE395001072E1 /* SignUpVC.swift */,
+				DD4521F3299AE4CB001072E1 /* SignUpFuncs.swift */,
+				DD4521F1299AE3AC001072E1 /* SignUpLayout.swift */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		DD45E1B8299589C000691CED /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				DD45E1B9299589D000691CED /* SplashVC.swift */,
+				DD65A09F299659000019B202 /* SplashLayout.swift */,
+				DD65A0A429965C620019B202 /* SplashFuncs.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		DD65A0A1299659340019B202 /* Login with Asan Imza */ = {
+			isa = PBXGroup;
+			children = (
+				DD65A0A2299659A00019B202 /* LoginAsanImzaVC.swift */,
+				DD4521E0299918D7001072E1 /* LoginAsanFuncs.swift */,
+				DD4521DE2999188A001072E1 /* LoginAsanLayout.swift */,
+			);
+			path = "Login with Asan Imza";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD11C972299270C200279A66 /* BESO-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD11C98A299270C400279A66 /* Build configuration list for PBXNativeTarget "BESO-Demo" */;
+			buildPhases = (
+				3716BC85DF282BE0597C9259 /* [CP] Check Pods Manifest.lock */,
+				DD11C96F299270C200279A66 /* Sources */,
+				DD11C970299270C200279A66 /* Frameworks */,
+				DD11C971299270C200279A66 /* Resources */,
+				5F5A077493287CCF03F86034 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BESO-Demo";
+			productName = "BESO-Demo";
+			productReference = DD11C973299270C200279A66 /* BESO-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD11C96B299270C200279A66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DD11C972299270C200279A66 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = DD11C96E299270C200279A66 /* Build configuration list for PBXProject "BESO-Demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD11C96A299270C200279A66;
+			productRefGroup = DD11C974299270C200279A66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD11C972299270C200279A66 /* BESO-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD11C971299270C200279A66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD11C986299270C400279A66 /* LaunchScreen.storyboard in Resources */,
+				DD11C983299270C400279A66 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3716BC85DF282BE0597C9259 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BESO-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F5A077493287CCF03F86034 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BESO-Demo/Pods-BESO-Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BESO-Demo/Pods-BESO-Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BESO-Demo/Pods-BESO-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD11C96F299270C200279A66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4521E829992DE4001072E1 /* LoginIDFuncs.swift in Sources */,
+				DD4521ED299A33FB001072E1 /* Wrappers.swift in Sources */,
+				DD65A0A0299659000019B202 /* SplashLayout.swift in Sources */,
+				DD4521E1299918D7001072E1 /* LoginAsanFuncs.swift in Sources */,
+				DD4521EA299A076B001072E1 /* UILoginHeader.swift in Sources */,
+				DD11C9902992995200279A66 /* OnBoardingLayout.swift in Sources */,
+				DD4521DF2999188A001072E1 /* LoginAsanLayout.swift in Sources */,
+				DD4521F2299AE3AC001072E1 /* SignUpLayout.swift in Sources */,
+				DD4521F0299AE395001072E1 /* SignUpVC.swift in Sources */,
+				DD45E1BA299589D000691CED /* SplashVC.swift in Sources */,
+				DD4521F4299AE4CB001072E1 /* SignUpFuncs.swift in Sources */,
+				DD11C99E299576E200279A66 /* OnBoardingViewCell.swift in Sources */,
+				DD48EB70299B54BC0084A526 /* UISignUpHeader.swift in Sources */,
+				DD11C9982994BD8D00279A66 /* Colors.swift in Sources */,
+				DD48EB72299B71EA0084A526 /* GlobalProperties.swift in Sources */,
+				DD11C97B299270C200279A66 /* OnBoardingVC.swift in Sources */,
+				DD4521E629992DC9001072E1 /* LoginIDLayout.swift in Sources */,
+				DD65A0A529965C620019B202 /* SplashFuncs.swift in Sources */,
+				DD11C977299270C200279A66 /* AppDelegate.swift in Sources */,
+				DD11C979299270C200279A66 /* SceneDelegate.swift in Sources */,
+				DD11C981299270C200279A66 /* BESO_Demo.xcdatamodeld in Sources */,
+				DD11C99C2995766700279A66 /* ViewHelpers.swift in Sources */,
+				DD65A0A3299659A00019B202 /* LoginAsanImzaVC.swift in Sources */,
+				DD4521E429991EF9001072E1 /* LoginIDVC.swift in Sources */,
+				DD11C9A029957AA600279A66 /* OnBoardingVCFuncs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD11C984299270C400279A66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD11C985299270C400279A66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD11C988299270C400279A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD11C989299270C400279A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD11C98B299270C400279A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3335687537D490563C8F8F6 /* Pods-BESO-Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JB55K2AB2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BESO-Demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faridrza19.BESO-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD11C98C299270C400279A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 645B5A9F9E06C964DD7A6928 /* Pods-BESO-Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JB55K2AB2C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BESO-Demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.faridrza19.BESO-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD11C96E299270C200279A66 /* Build configuration list for PBXProject "BESO-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD11C988299270C400279A66 /* Debug */,
+				DD11C989299270C400279A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD11C98A299270C400279A66 /* Build configuration list for PBXNativeTarget "BESO-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD11C98B299270C400279A66 /* Debug */,
+				DD11C98C299270C400279A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD11C97F299270C200279A66 /* BESO_Demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD11C980299270C200279A66 /* BESO_Demo.xcdatamodel */,
+			);
+			currentVersion = DD11C980299270C200279A66 /* BESO_Demo.xcdatamodel */;
+			path = BESO_Demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD11C96B299270C200279A66 /* Project object */;
+}
